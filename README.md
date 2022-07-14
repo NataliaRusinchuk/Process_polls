@@ -19,5 +19,7 @@ Examples of used *.xlsx files and resulted *.pdf reports are added to the folder
 Processing the results for Programs can be conducted without any additional preprocessing - you need just to put the input file name and the name of the program, which is the output file name. 
 Results for Teachers and sibjects should be preprocessed: you need to save the results of all the survey in one file, and give the sheet names in the following format: "ShortenedProgramTitle Semester", e.g. "Chemistry HT 3". Also you need to add to *.ipynb file dictionary for converting shortened names in full program names, and the dictionary consisted names of departments and lists of teachers of these departments. These two dictionaries are needed to input the full program names in the report correctly, and also to create reports for teachers rates for each department. 
 
+You may find examples of the survey results in *.xlsx and report results in *.pdf.
+
 The processing also may be done autonatically without installation of Python using Google Colaboratory. You may find these files here:
 1. For Program in Ukrainian - https://drive.google.com/file/d/1BxyJgw5p_qCMGP-y7nHMdc9EIzJvk1Q_/view?usp=sharing
